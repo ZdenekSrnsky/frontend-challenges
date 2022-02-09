@@ -11,7 +11,7 @@ const NftPreviewCard = () => (
 	<Page title='NFT Component'>
 		<Section>
 			<div className='flex h-full w-full items-center justify-center bg-nft-400 font-outfit'>
-				<div className='w-min rounded-xl bg-nft-300 p-4 shadow-lg transition-all hover:scale-105'>
+				<div className='drop-stransition-all w-min rounded-xl bg-nft-300 p-4 shadow-lg shadow-gray-900 drop-shadow-2xl hover:scale-105'>
 					<div className='relative h-60 w-60 cursor-pointer rounded-lg'>
 						<Image
 							src={nftImage}
