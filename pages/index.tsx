@@ -11,11 +11,11 @@ const NftPreviewCard = () => (
 	<Page title='NFT Component'>
 		<Section>
 			<div className='flex h-full w-full items-center justify-center bg-nft-400 font-outfit'>
-				<div className='drop-stransition-all w-min rounded-xl bg-nft-300 p-4 shadow-lg shadow-gray-900 drop-shadow-2xl hover:scale-105'>
+				<div className='w-min rounded-xl bg-nft-300 p-4 shadow-lg shadow-gray-900 drop-shadow-2xl transition-all'>
 					<div className='relative h-60 w-60 cursor-pointer rounded-lg'>
 						<Image
 							src={nftImage}
-							alt='Equilibrium NFT'
+							alt='Equilibrium NFT item'
 							className='rounded-lg bg-black backdrop-blur-sm'
 							objectFit='cover'
 						/>
@@ -24,7 +24,7 @@ const NftPreviewCard = () => (
 							<div className='absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center'>
 								<Image
 									src={viewIcon}
-									alt='View'
+									alt='Eye icon overlay'
 									layout='fixed'
 									objectFit='cover'
 								/>
@@ -42,11 +42,11 @@ const NftPreviewCard = () => (
 
 					<div className='my-4 flex justify-between'>
 						<div className='flex items-center justify-center space-x-1'>
-							<Image src={ethereumIcon} alt='Etherum' />
+							<Image src={ethereumIcon} alt='Cyan ethereum icon' />
 							<div className='text-sm font-semibold text-cyan'>0.041 ETH</div>
 						</div>
 						<div className='flex items-center justify-center space-x-1'>
-							<Image src={clockIcon} alt='Clock' />
+							<Image src={clockIcon} alt='Small clock icon' />
 							<div className='text-sm font-light text-nft-100'>3 days left</div>
 						</div>
 					</div>
@@ -55,7 +55,7 @@ const NftPreviewCard = () => (
 
 					<div className='mt-4 mb-2 flex items-center  space-x-3'>
 						<div className='relative h-7 w-7 rounded-full border border-white'>
-							<Image src={avatarImage} alt='Avatar' />
+							<Image src={avatarImage} alt='Face of the NFT item creator' />
 						</div>
 						<div className='flex items-center'>
 							<span className='mr-1 text-xs font-light text-nft-100'>
