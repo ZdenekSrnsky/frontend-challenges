@@ -10,8 +10,7 @@ Here i will gather all the Frontend Mentor Challenges. In future, every challeng
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://frontend-challenges-zdeneksrnsky.vercel.app)
 
 ### Built with
 
